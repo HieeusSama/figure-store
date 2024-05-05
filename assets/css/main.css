@@ -1,15 +1,15 @@
 .header
 {
-    height: 122px;
+    height: 200px;
     background-color: white;
+    padding: 10px 210px;
 }
 
 .header__main
 {
     display: flex;
     align-items: center;
-    padding: 10px 210px ;
-
+    padding: 10px;
 }
 
 .header__logo-add {
@@ -38,4 +38,18 @@
 .header__items-option
 {
     margin-left: 50px;
+    cursor: pointer
 }
+
+.header__menu
+{
+    display: flex;
+    margin-left: 230px;
+}
+.header__menu-option
+{
+    font-size: 18px;
+    margin-right: 80px;
+    cursor: pointer;
+}
+
