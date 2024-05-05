@@ -22,8 +22,9 @@ html
 
 .input
 {
-    height: 38px;
-    width: 400px;
+    height: 100%;
+    width: 100%;
+    flex: 1;
     border-radius: 5px;
     font-size: 1.4rem;
     color: var(--text-color);
@@ -36,16 +37,15 @@ html
     outline: none;
 }
 
-
-
 .button
 {
-    height: 36px;
+    height: 40px;
     width: 45px;
     border-radius: 5px;
     border: none;
     background-color: #8B1919;
     color: #fff;
+    margin: 1px;
 }
 
 .button:hover
@@ -53,7 +53,12 @@ html
     background-color: #d2320a;
 }
 
-.fa-regular
+.fa-regular fa-magnifying-glass
 {
     color: #fff;
+}
+
+.fa-regular fa-circle-user
+{
+    color: #333;
 }
