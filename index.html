@@ -20,9 +20,7 @@
             <header class="header">
                 <div class="header__main">
                     <div class="header__logo">
-                        <a href="http://127.0.0.1:3000/index.html">
-                            <img src="./assets/img/Logo.png" alt="logo" class="header__logo-add">
-                        </a>
+                        <img src="./assets/img/Logo.png" alt="logo" class="header__logo-add">
                     </div>
                     <div class="header__search">
                         <input type="text" class = "input" placeholder="Search">
@@ -62,6 +60,17 @@
             </header>
 
             <container class="container">
+                <div class="slider">
+                    <div class="slides">
+                        <img class="slide" src="./assets/img/image1.jpg" alt="Image #1">
+                        <img class="slide" src="./assets/img/image2.jpg" alt="Image #2">
+                        <img class="slide" src="./assets/img/image3.jpg" alt="Image #3">
+                    </div>
+                    <button class="prev" onclick="prevSlide()">&#10094</button>
+                    <button class="next" onclick="nextSlide()">&#10095</button>
+                </div>
+            
+                <script src="./assets/js/index.js"></script>
             </container>
             <footer class="footer">
             </footer>
